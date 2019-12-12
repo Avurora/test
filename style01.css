@@ -198,6 +198,9 @@ body{
     border-radius: 40px;
     border: 18px #FFFFFF double;
 }
+#trade-botton:active{
+    box-shadow: 0px 0px 10px #000000;
+}
 
 
 
