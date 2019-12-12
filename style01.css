@@ -8,8 +8,271 @@
 
 body{
     background: #FFCFD0;
+    font-family: 'TsukuARdGothic-Regular','TsukuBRdGothic-Regular',monospace;
+    -webkit-text-size-adjust:100%;/*    スマホサイトの１pxでフォントサイズが格段に変わってしまうバグ修正*/
 }
 .main{
     background: #FFF;
     width: 980px;
 }
+
+
+
+
+.toptop{
+    background:#CF695D;
+    color: #FFF;
+    padding: 20px;
+    text-align: center;
+    font-size: 26px;
+}
+
+.hukidasi{
+  text-align: center;
+  position: relative;
+  bottom: 30px;
+}
+
+.tag05{
+    margin-top: 80px;
+}
+.tag06{
+    margin-top: 30px;
+}
+.tag07{
+    margin-top: 90px;
+    margin-bottom: 90px;
+    
+}
+.tag09{
+    font-size: 20px;
+}
+.tag01{
+    display: inline-block;
+    position: relative;
+    left: 40px;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.tag02{
+    display: inline-block;
+    font-size: 40px;
+    text-align: center;
+    color: #cf695d;
+    margin-left: 30px
+}
+.tag02-2{
+    position: relative;
+    bottom: 20px;
+        line-height: 80px;
+}
+
+.main2{
+    background:#FEEFEE;
+    border-radius: 50px;
+    width: 950px;
+    margin: 0 auto;
+}
+
+.center{
+    text-align: center;
+}
+.font-pink{
+    color: #cf695d;
+    font-size: 36px;
+    line-height: 60px;
+}
+.tag03{
+    border-bottom: 3px #cf695d solid;
+    margin-top: 30px;
+    margin-bottom: 130px;
+    display: inline-block;
+}
+.tag04{
+    font-size: 25px;
+}
+.ookukuri1{
+    font-size: 60px;
+    color: #CF695D;
+    border: 20px #CF695D solid;
+    border-radius:30px;
+    text-align: center;
+    width: 800px;
+    position:relative;
+    left: 35px;
+    padding: 10px 20px;
+    margin-bottom: 160px;
+}
+
+.step{
+    display: inline-block;
+    margin-left: 40px;
+}
+.step p{
+    display: inline-block;
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    bottom: 5px;
+    left: 45px;
+    color: #cf695d;
+}
+.step img{
+    display: inline-block;
+}
+
+.setumei{
+    font-size: 40px;
+    text-align: center;
+    margin: 40px 0px;
+    color: #cf695d;
+    line-height: 70px;
+}
+.tag08{
+    margin: 40px 0;
+}
+.botton p{
+    font-size: 50px;
+    background: #DBB366;
+    color: #FFF;
+    display: inline-block;
+    padding: 10px 250px;
+    border-radius: 40px;
+    border: 18px #FFFFFF double;
+}
+.botton p:active{
+    box-shadow: 0px 0px 10px #000000;
+}
+.botton img{
+    margin: 30px 0;
+    display: none;
+}
+.botton{
+    text-align: center;
+}
+
+
+
+/*ステップ２*/
+.step2{
+    display: inline-block;
+    margin-left: 32px;
+    margin-top: 100px
+}
+.step2 p{
+    display: inline-block;
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    bottom: 5px;
+    left: 45px;
+    color: #cf695d;
+}
+.step2 img{
+    display: inline-block;
+}
+
+
+
+/*ステップ３*/
+.trade-main{
+    background: #FFF;
+    width: 900px;
+    border-radius:30px;
+    margin:0 auto;
+    display: none;
+}
+.trade-margin{
+    position: relative;
+    top: -30px;
+    display: none;
+}
+
+#trade-botton{
+    font-size: 50px;
+    background: #DBB366;
+    color: #FFF;
+    display: inline-block;
+    margin-left: 50px;
+    padding: 10px 250px;
+    border-radius: 40px;
+    border: 18px #FFFFFF double;
+}
+
+
+
+#donuts{
+    margin:70px;
+}
+#hamburger{
+    margin:70px;
+}#drink{
+    margin:70px;
+}
+
+
+
+/*終盤*/
+.access-p{
+    font-size: 40px;
+    color:#501D1E;
+    display: inline-block;
+    margin-left: 180px;
+    margin-bottom: 200px;
+    margin-top: 70px
+}
+.access{
+    text-align: center;    
+}
+
+.ookukuri2{
+    margin-top: 300px;
+}
+
+
+
+
+/* コピーライト*/
+.light{
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    background:#CF695D;
+    color: #FFF;
+    margin-top: 200px
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
