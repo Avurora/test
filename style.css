@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #FFCFD0;
+}
+.main{
+    background: #FFF;
+    width: 980px;
+}
