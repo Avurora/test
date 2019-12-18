@@ -5,7 +5,7 @@
 <title>無題ドキュメント</title>
     
     <link rel="stylesheet" href="style01.css">
-    <meta name="viewport" content="width=960" ><!--    スマホサイトの１pxでフォントサイズが格段に変わってしまうバグ修正-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 " ><!--    スマホサイトの１pxでフォントサイズが格段に変わってしまうバグ修正-->
     <script src="jquery-3.4.1.min.js"></script>
 
 </head>
@@ -14,26 +14,31 @@
     <div class="main"><!--白背景bg-->
         
         
+  
+        
         
     
-    <p class="toptop">春・秋の連休にて開催決定!!!</p>
-    
-    <img src="01.png" alt="" width="980px">
+    <img src="01.png" alt="" width="980px" id="top">
+        
+        
+        
+        
+        
+     
         
         <div class="hukidasi">
     <img src="02.png" alt="" width="800px">
-       
-        
-        <img src="03.png" alt="" width="400px" class="tag06">
-
-            <img src="04.png" alt="" width="900px" class="tag05">
         </div>
         
+
         
-        <div class="tag01">
-        <img src="05.png" alt="" width="150px" class="tag02">
-        <p class="tag02 tag02-2">イベントに参加して<br>素敵な景品をGETしよう！</p>
-        <img src="06.png" alt="" width="150px" class="tag02">
+        
+        
+        
+        
+        
+        <div class="center">
+        <img src="29.png" alt="" width="900px" class="tag11">
         </div>
         
         
@@ -44,24 +49,29 @@
         
         
             <div class="center">
-        <img src="07.png" alt="" width="900px" class="tag07">
+                <img src="07.png" alt="" width="900px" class="tag07">
             
-            <p class="font-pink">イベント期間中に<br>
-            コイン15枚セット<span class="tag04">(中身はランダム)</span>を駅前にて購入し、<br>
-            コイン2種類の組み合わせで<br>
-            様々な景品と交換！<br>
-            <span class="tag03">数に限りあり！</span>
+                <p class="font-pink">イベント期間中に<br>
+                コイン15枚セット<span class="tag04">(中身はランダム)</span>を駅前にて購入し、<br>
+                コイン2種類の組み合わせで<br>
+                様々な景品と交換！<br>
+                <span class="tag03">数に限りあり！</span>
             </p>
             </div>
             
             
             
 <!--            ステップ１-->
-            <p class="ookukuri1">コインの収集方法</p>
+            <p class="ookukuri1" id="coincollect">コインの収集方法</p>
             <div class="step">
-            <img src="08.png" alt="" width="180px">
-            <p>コイン15枚セット<span class="tag09">(中身はランダム)</span>を<br>
-            駅前にて購入</p>
+                <div class="left">
+                    <img src="32.png" alt="" width="180px" id="step1">
+                </div>
+                <br>
+                <div class="tag12">
+                    <p><span class="tag13">コイン15枚セット</span><br>
+                    を駅前にて購入</p>
+                </div>
             </div>
             <div class="center">
             <img src="09.png" alt="" width="860px" class="tag08">
@@ -75,22 +85,26 @@
             
             <div class="botton">
             <p id="coin-collect-botton">コインの種類▼</p>
-            <img src="10.png" alt="" width="870px" id="coin-collect">
+            <img src="30.png" alt="" width="870px" id="coin-collect">
             </div>
             
             
             
 <!--            ステップ2-->               
             <div class="step2">
-            <img src="11.png" alt="" width="180px">
-            <p>参加者に配られる羽織をきて<br>商店街に繰り出そう！</p>
+                <div class="right">
+                    <img src="33.png" alt="" width="180px" class="tag13" id="step2">
+                </div>
+            <p>参加者に配られる<br>
+            羽織をきて<br>商店街に繰り出そう！</p>
             </div>
             <div class="center">
-            <img src="12.png" alt="" width="860px" class="tag08">
+            <img src="38.png" alt="" width="860px" class="tag08">
             </div>
-            <p class="setumei">羽織の種類は全部で5種類用意。<br>
+            <p class="tag18">羽織の種類は全部で5種類用意。<br>
             並んだ順番によって渡す羽織は変わる。<br>
-            一つ一つ大田区に由来した模様が反映されている。
+            一つ一つ大田区に由来した<br>
+            模様が反映されている。
             </p>
             
             
@@ -103,14 +117,18 @@
             
 <!--            ステップ3-->  
             <div class="step2">
-            <img src="14.png" alt="" width="180px">
-            <p>交換したい景品の<br>コインの組み合わせを確認</p>
+            <img src="34.png" alt="" width="180px" id="step3">
             </div>
+            <div class="tag15">
+                <p class="tag14">交換したい景品の<br>コインの組み合わせを確認</p>
+            </div>
+           
             <div class="center">
             <img src="15.png" alt="" width="860px" class="tag08">
             </div>
-            <p class="setumei">
-            トレードをする前に自分の欲しいコインを確認！
+            <p class="tag16">
+            トレードをする前に<br>
+            自分の欲しいコインを確認！
             </p>
             
             
@@ -132,17 +150,19 @@
             
             
 <!--            ステップ４-->
-            <div class="step2">
-            <img src="22.png" alt="" width="180px">
-            <p>羽織をきている人を目印に<br>トレードを申し込もう！</p>
+                <img src="35.png" alt="" width="180px" class="tag20" id="step4">
+            <div class="tag19">
+                <p>羽織をきている人を目印に<br>トレードを申し込もう！</p>
             </div>
+            
             <div class="center">
             <img src="23.png" alt="" width="660px" class="tag08">
             </div>
-            <p class="setumei">羽織を着ている人がいたら<br>
+            <p class="tag21">羽織を着ている人がいたら<br>
             積極的に交換を申し出てみよう！<br>
             相手が何を欲しているのかよく考えて<br>
-            お互いがWIN-WINなトレードを心がけよう。
+            お互いがWIN-WINな<br>
+            トレードを心がけよう。
             </p>
             
             
@@ -153,21 +173,23 @@
       
             
 <!--            ステップ５-->
-            <div class="step2">
-            <img src="25.png" alt="" width="180px">
-            <p>羽織をきている人を目印に<br>トレードを申し込もう！</p>
-            </div>
+            
+            <img src="36.png" alt="" width="180px" class="tag27" id="step5">
+            <p class="tag22">羽織をきている人を目印に<br>トレードを申し込もう！</p>
+            
             <div class="center">
-            <img src="26.png" alt="" width="660px" class="tag08">
+            <img src="39.png" alt="" width="660px" class="tag08">
             </div>
-            <p class="setumei">
-            頑張って集めたコインをいよいよ景品に交換！<br>美味しい大田区のグルメを召し上がれ！
+            <p class="tag23">
+            頑張って集めたコインを<br>
+            いよいよ景品に交換！<br>美味しい大田区の<br>
+            グルメを召し上がれ！
             </p>
             
             
             
 <!--            終盤-->
-            <p class="ookukuri1 ookukuri2">開催要項</p>
+            <p class="ookukuri1 ookukuri2" id="souce">開催要項</p>
             
             
             <div class="access">
@@ -184,26 +206,68 @@
             
             
             
-            <p class="ookukuri1">アクセス</p>
+            <p class="ookukuri1" id="accses">アクセス</p>
             <div class="center">
             <img src="28.png" alt="" width="930px">
             </div>
             <p class="font-pink">いずれも蒲田駅より１００m以内</p>
             
+            <div class="center tag29">
+    <img src="37.png" alt="" width="900px" class="tag28">
+            </div>
+            
+            
             
             
 <!--            コピーライト-->
-        <p class="light">© 2019 · Kanamu Sato · ALL RIGHTS RESERVED</p>
+        <p class="light">© 2019 · Kanamu Sato · ALL RIGHTS RESERVED<br>
+                         ota sitamati enisi<br>
+                        produced by @Nozomi Takano</p>
+                
             
             
             
             
             
             
-            
-            
-            
-            
+           
+                     <!--        ハンバーガーマーク-->
+        <div class="tag10">
+         <header>
+  <div id="nav-drawer">
+      <input id="nav-input" type="checkbox" class="nav-unshown">
+      <label id="nav-open" for="nav-input"><span class="tag26"><img src="31.png" alt="ハンバーガー" width="80px"></span></label>
+      <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+      <div id="nav-content">
+          <ul class="menu-1">
+              <li><a href="#TOP" class="border">TOP</a></li>
+              <li><a href="#coincollect" class="border">コインの収集方法</a></li>
+                  <ul class="menu-2">
+                      <li>
+                          <a href="#step1">Step1</a>
+                      </li>
+                      <li>
+                          <a href="#step2">Step2</a>
+                      </li>
+                      <li>
+                          <a href="#step3">Step3</a>
+                      </li>
+                      <li>
+                          <a href="#step4">Step4</a>
+                      </li>
+                      <li>
+                          <a href="#step5">Step5</a>
+                      </li>
+                  </ul>
+              <li><a href="#souce" class="border">開催要項</a></li>
+              <li><a href="#accses" class="border">アクセス</a></li>
+              <div class="tag30">
+                  <img src="40.png" alt="" width="200px">
+              </div>
+          </ul><br>
+          </header>
+      </div>
+        
             
             
             
