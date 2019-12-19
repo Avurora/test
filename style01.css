@@ -104,7 +104,7 @@ body{
     position:relative;
     left: 35px;
     padding: 10px 20px;
-    margin-bottom: 160px;
+    margin-bottom: 100px;
 }
 
 .step{
@@ -125,12 +125,12 @@ body{
 
 .setumei{
     font-size: 40px;
-    margin: 40px 70px;
+    margin: 40px 0 50px 200px;
     color: #cf695d;
     line-height: 70px;
 }
 .tag08{
-    margin: 20px 0 0 0;
+    margin: 0 0 30px 0;
 }
 .botton p{
     font-size: 50px;
@@ -138,6 +138,7 @@ body{
     color: #FFF;
     display: inline-block;
     padding: 10px 250px;
+    margin: 30px auto;
     border-radius: 40px;
     border: 18px #FFFFFF double;
 }
@@ -171,7 +172,7 @@ body{
     color: #cf695d;
 }
 .step2 img{
-    display: inline-block;
+    margin-left: 30px;
 }
 
 
@@ -196,6 +197,7 @@ body{
     color: #FFF;
     display: inline-block;
     margin-left: 50px;
+    margin-bottom: 30px;
     padding: 10px 250px;
     border-radius: 40px;
     border: 18px #FFFFFF double;
@@ -244,7 +246,9 @@ body{
     padding: 10px;
     background:#CF695D;
     color: #FFF;
-    margin-top: 50px
+    margin-top: 50px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 } 
 
 
@@ -255,15 +259,15 @@ body{
 
 
 /*ハンバーガーマーク*/
-
 header {
     float: right;
   padding:50px 0px 100px 100px;
   background:#E65748;
 display: inline-block;
     margin: -30px 10px 0 0 ;
-    border-radius: 30px;
-    height: 50px
+    border-radius: 100px;
+    height: 0px;
+    opacity: 0.9;
 }
 
 #nav-drawer {
@@ -285,7 +289,7 @@ display: inline-block;
 
 .tag26{
     display: inline-block;
-    margin: 10px 0 0 -64px;
+    margin: -22px 0 0 -64px;
 }
 
 /*ハンバーガーアイコンをCSSだけで表現*/
@@ -384,8 +388,8 @@ bottom: 83%;
 }
 .tag15{
     color: #cf695d;
-    font-size: 40px;
-    margin-left: 30px; 
+    font-size: 50px;
+    margin:0 0 30px 60px; 
 }
 
 
@@ -396,7 +400,7 @@ bottom: 83%;
     font-size: 40px;
     line-height: 70px;
     color: #cf695d;
-    margin-left: 30px;
+    margin-left: 360px;
     margin-bottom: 30px;
     
 }
@@ -406,13 +410,13 @@ bottom: 83%;
     font-size: 40px;
     color: #cf695d;
     line-height: 70px;
-    margin-left: 200px;
+    margin-left: 60px;
 }
 
 .tag19{
-    font-size: 40px;
+    font-size: 50px;
     color: #cf695d;
-    margin-left: 420px;
+    margin-left: 300px;
 }
 
 .tag20{
@@ -424,7 +428,7 @@ bottom: 83%;
     font-size: 40px;
     color: #cf695d;
     line-height: 70px;
-    margin: 0 0 0 230px;
+    margin: 0 0 0 60px;
 }
 
 
@@ -432,15 +436,16 @@ bottom: 83%;
 .tag22{
     font-size: 40px;
     color: #cf695d;
-    margin-left: 30px;
+    margin-left: 60px;
 }
 .tag27{
-    margin: 30px 0 10px 30px
+    margin: 30px 0 10px 60px
 }
 
 .tag23{
     font-size: 40px;
-    margin-left: 40px;
+    margin-left: 440px;
+    margin-bottom: -120px;
     color: #cf695d;
     line-height: 70px;
 }
@@ -488,10 +493,24 @@ bottom: 83%;
     margin:0 0 0 19px;
 }
 
-
-
-
-
+.ggmap {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 20px;
+left: 50px;
+height: 0;
+overflow: hidden;
+}
+ 
+.ggmap iframe,
+.ggmap object,
+.ggmap embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 90%;
+height: 90%;
+}
 
 
 
