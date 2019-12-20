@@ -1,7 +1,9 @@
 @charset "UTF-8";
 /* CSS Document */
 
-
+html{
+    wigth: 980px;
+}
 *{
     margin: 0;
     padding: 0;
