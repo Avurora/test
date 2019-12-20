@@ -7,7 +7,7 @@
     padding: 0;
 }
 body{
-    background: #FFCFD0;
+    background: #FFF;
     font-family: 'TsukuARdGothic-Regular','TsukuBRdGothic-Regular',monospace;
     -webkit-text-size-adjust:100%;/*    スマホサイトの１pxでフォントサイズが格段に変わってしまうバグ修正*/
 }
@@ -29,8 +29,9 @@ body{
 
 .hukidasi{
   text-align: center;
-  position: relative;
-  bottom: 30px;
+margin-top: -220px; 
+margin-bottom: 80px; 
+    
 }
 
 .tag05{
@@ -354,7 +355,7 @@ display: inline-block;
 
 .tag10{
 position: fixed;
-bottom: 83%;
+bottom: 84%;
     left: 80%;
 }
 
@@ -464,7 +465,7 @@ bottom: 83%;
 }
 
 .menu-1{
-    font-size: 30px;
+    font-size: 35px;
     margin: 30px 60px;
     list-style: none;
     
@@ -483,18 +484,20 @@ bottom: 83%;
 }
 
 .menu-1 .tag30{
-    margin: 280px 0 0 0;
+    margin: 670px 0 0 0;
     text-align: center;
+    
 }
 
 .menu-2{
-    font-size: 23px;
-    margin: -16px 0 10px 0;
+    font-size: 32px;
+    margin: -5px 0 10px 0;
+    
 }
 .menu-2 li{
     list-style: none;
     line-height: 30px;
-
+line-height: 48px;
     margin:0 0 0 10px;
 }
 
@@ -527,8 +530,22 @@ height: 100%;
 .tag40{
     margin: 0 0 20px 0;
 }
+.tag42{
+position: relative;
+    bottom: 230px;
+    left: 530px
+}
 
 
+
+
+
+/*loading*/
+#container{display:none;}
+#loading{
+    text-align: center;
+    margin-top: 500px;
+}
 
 
 
