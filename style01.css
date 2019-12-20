@@ -10,6 +10,7 @@ body{
     background: #FFF;
     font-family: 'TsukuARdGothic-Regular','TsukuBRdGothic-Regular',monospace;
     -webkit-text-size-adjust:100%;/*    スマホサイトの１pxでフォントサイズが格段に変わってしまうバグ修正*/
+    width: 980px;
 }
 .main{
     background: #FFF;
