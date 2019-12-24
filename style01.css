@@ -1,6 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
+
 *{
     margin: 0;
     padding: 0;
@@ -10,9 +11,9 @@ body{
     font-family: 'TsukuARdGothic-Regular','TsukuBRdGothic-Regular',monospace;
     -webkit-text-size-adjust:100%;/*    スマホサイトの１pxでフォントサイズが格段に変わってしまうバグ修正*/
 }
-.main{
-    background: #FFF;
-    width: 980px;
+
+html{
+    width: 410px;
 }
 
 
@@ -28,7 +29,7 @@ body{
 
 .hukidasi{
   text-align: center;
-margin-top: -220px; 
+margin-top: -130px; 
 margin-bottom: 80px; 
     
 }
@@ -40,8 +41,8 @@ margin-bottom: 80px;
     margin-top: 30px;
 }
 .tag07{
-    margin-top: 90px;
-    margin-bottom: 90px;
+    margin-top: 10px;
+    margin-bottom: 40px;
     
 }
 .tag09{
@@ -72,8 +73,8 @@ margin-bottom: 80px;
 
 .main2{
     background:#FEEFEE;
-    border-radius: 50px;
-    width: 950px;
+    border-radius: 20px;
+    width:400px;
     margin: 0 auto;
 }
 
@@ -82,29 +83,29 @@ margin-bottom: 80px;
 }
 .font-pink{
     color: #cf695d;
-    font-size: 36px;
-    line-height: 60px;
+    font-size: 16px;
+    line-height: 20px;
 }
 .tag03{
     border-bottom: 3px #cf695d solid;
     margin-top: 30px;
-    margin-bottom: 130px;
+    margin-bottom: 40px;
     display: inline-block;
 }
 .tag04{
-    font-size: 25px;
+    font-size:7px;
 }
 .ookukuri1{
-    font-size: 60px;
+    font-size: 20px;
     color: #CF695D;
-    border: 20px #CF695D solid;
-    border-radius:30px;
+    border: 6px #CF695D solid;
+    border-radius: 20px;
     text-align: center;
-    width: 800px;
+    width: 300px;
     position:relative;
     left: 35px;
-    padding: 10px 20px;
-    margin-bottom: 100px;
+    padding: 5px 20px;
+    margin-bottom: 30px;
 }
 
 .step{
@@ -113,7 +114,7 @@ margin-bottom: 80px;
 }
 .step p{
     display: inline-block;
-    font-size: 50px;
+    font-size: 23px;
     position: relative;
     bottom: 5px;
     left: 45px;
@@ -124,23 +125,23 @@ margin-bottom: 80px;
 }
 
 .setumei{
-    font-size: 40px;
-    margin: 40px 0 50px 200px;
+    font-size: 15px;
+    margin: 20px 0 20px 100px;
     color: #cf695d;
-    line-height: 70px;
+    line-height: 30px;
 }
 .tag08{
     margin: 0 0 -10px 0;
 }
 .botton p{
-    font-size: 50px;
+    font-size: 20px;
     background: #DBB366;
     color: #FFF;
     display: inline-block;
-    padding: 10px 250px;
-    margin: 30px auto;
-    border-radius: 40px;
-    border: 18px #FFFFFF double;
+    padding: 1px 90px;
+    margin: 0px auto -30px;
+    border-radius: 20px;
+    border: 8px #FFFFFF double;
 }
 .botton p:active{
     box-shadow: 0px 0px 10px #000000;
@@ -151,36 +152,23 @@ margin-bottom: 80px;
 }
 .botton{
     text-align: center;
+    
 }
 
 
 
 /*ステップ２*/
-.step2{
-    display: inline-block;
-    margin-left: 32px;
-    margin-top: 50px;
-    margin-bottom: 20px;
-    
-}
 .step2 p{
-    display: inline-block;
-    font-size: 50px;
-    position: relative;
-    bottom: 5px;
-    margin-left: 378px;
+    font-size: 23px;
     color: #cf695d;
+    margin: 0 0 0 15px;
 }
-.step2 img{
-    margin-left: 30px;
-}
-
 
 
 /*ステップ３*/
 .trade-main{
     background: #FFF;
-    width: 900px;
+    width: 380px;
     border-radius:30px;
     margin:0 auto;
     display: none;
@@ -191,46 +179,51 @@ margin-bottom: 80px;
     display: none;
 }
 
+.trade-icon{
+    margin: -20px 0;
+}
 
 .step2 img {
-    margin-left: -320px;
 }
 
 #trade-botton{
-    font-size: 50px;
+    font-size: 20px;
     background: #DBB366;
     color: #FFF;
     display: inline-block;
-    margin-left: 50px;
-    margin-bottom: 30px;
-    padding: 10px 250px;
-    border-radius: 40px;
-    border: 18px #FFFFFF double;
+    padding: 1px 90px;
+    margin: 0px auto -30px;
+    border-radius: 20px;
+    border: 8px #FFFFFF double;
 }
 #trade-botton:active{
     box-shadow: 0px 0px 10px #000000;
 }
 
+.tag99{
+    position: relative;
+    left: 40px;
+}
 
 
 #donuts{
-    margin:70px;
+    margin:20px;
 }
 #hamburger{
-    margin:70px;
+    margin:20px;
 }#drink{
-    margin:70px;
+    margin:20px;
 }
 
 
 
 /*終盤*/
 .access-p{
-    font-size: 40px;
+    font-size: 20px;
     color:#501D1E;
     display: inline-block;
-    margin-left: 180px;
-    margin-bottom: 200px;
+    margin-left: 62px;
+    margin-bottom: 80px;
     margin-top: 70px
 }
 .access{
@@ -247,8 +240,8 @@ margin-bottom: 80px;
 /* コピーライト*/
 .light{
     text-align: center;
-    font-size: 12px;
-    padding: 10px;
+    font-size: 7px;
+    padding: 30px 10px 10px 10px;
     background:#CF695D;
     color: #FFF;
     margin-top: 50px;
@@ -266,10 +259,10 @@ margin-bottom: 80px;
 /*ハンバーガーマーク*/
 header {
     float: right;
-  padding:50px 0px 100px 100px;
+  padding:0px 0px 70px 70px;
   background:#E65748;
 display: inline-block;
-    margin: -30px 10px 0 0 ;
+    margin: 0px 10px 0 0 ;
     border-radius: 100px;
     height: 0px;
     opacity: 0.9;
@@ -287,14 +280,14 @@ display: inline-block;
 /*アイコンのスペース*/
 #nav-open {
   display: inline-block;
-  width: 50px;
+  width: 0px;
   height: 0px;
   vertical-align: middle;
 }
 
 .tag26{
     display: inline-block;
-    margin: -27px 0 0 -65px;
+    margin: 1px 0px 0px -55px;
 }
 
 /*ハンバーガーアイコンをCSSだけで表現*/
@@ -328,7 +321,7 @@ display: inline-block;
   left: 0;
   z-index: 9999;/*最前面に*/
   width: 90%;/*右側に隙間を作る（閉じるカバーを表示）*/
-  max-width: 400px;/*最大幅（調整してください）*/
+  max-width: 300px;/*最大幅（調整してください）*/
   height: 100%;
   background: #FFF;
   background: rgba(207,105,93,0.8);
@@ -354,8 +347,8 @@ display: inline-block;
 
 .tag10{
 position: fixed;
-bottom: 80%;
-    left: 50%;
+bottom: 47px;
+    left: 320px;
 }
 
 
@@ -366,8 +359,7 @@ bottom: 80%;
 
 
 .left{
-    position: relative;
-    left: 20px;
+    margin: 0 0 0 -15px;
 }
 
 
@@ -378,23 +370,21 @@ bottom: 80%;
 
 .tag12{
     position: relative;
-    right: 29px;
+    right: 60px;
 }
 
 
 .right{
-    position: relative;
-    margin-left: 700px;
+    margin: 30px 20px;
 }
 
 
 .tag13{
-    margin-bottom: 30px;
 }
 .tag15{
     color: #cf695d;
-    font-size: 50px;
-    margin:0 0 30px 60px; 
+    font-size: 20px;
+    margin:0 0 30px 15px; 
 }
 
 
@@ -402,70 +392,74 @@ bottom: 80%;
 
 
 .tag16{
-    font-size: 40px;
-    line-height: 70px;
+    font-size: 15px;
+    line-height: 30px;
     color: #cf695d;
-    margin-left: 360px;
+    margin-left: 160px;
+    margin-top: 20px;
     margin-bottom: 30px;
     
 }
 
 
 .tag18{
-    font-size: 40px;
+    font-size: 18px;
     color: #cf695d;
-    line-height: 70px;
+    line-height: 30px;
     margin-left: 60px;
+    margin-bottom: 30px;
 }
 
 .tag19{
-    font-size: 50px;
+    font-size: 23px;
     color: #cf695d;
-    margin-left: 300px;
+    margin-left: 15px;
+    margin-bottom: -50px;
 }
 
 .tag20{
-    margin:50px auto  20px 307px;
+    margin:50px auto  20px 15px;
 }
 
 
 .tag21{
-    font-size: 40px;
+    font-size: 15px;
     color: #cf695d;
-    line-height: 70px;
-    margin: 0 0 0 60px;
+    line-height: 30px;
+    margin: 0 0 0 120px;
 }
 
 
 
 .tag22{
-    font-size: 50px;
+    font-size: 20px;
     color: #cf695d;
-    margin-left: 60px;
+    margin-left: 10px;
 }
 .tag27{
-    margin: 30px 0 10px 60px
+    margin: 80px 0 10px 10px
 }
 
 .tag23{
-    font-size: 40px;
-    margin-left: 440px;
-    margin-bottom: -120px;
+    font-size: 15px;
+    margin-left: 210px;
+    margin-bottom: -220px;
+    margin-top: 20px;
     color: #cf695d;
-    line-height: 70px;
+    line-height: 30px;
 }
 
 .tag28{
-    margin: 60px 0 0 0;
+    margin: 0px 0 0 0;
 }
 
 .tag29{
-    margin: 200px 0 0 0;
+    margin:70px 0 0 0;
 }
 
 .menu-1{
-    font-size: 35px;
-    margin: 30px 60px;
+    font-size: 26px;
+    margin: 30px 40px;
     list-style: none;
     
     
@@ -476,27 +470,27 @@ bottom: 80%;
 }
 .menu-1 li{
 
-    line-height: 90px;
+    line-height: 40px;
 }
 .menu-1 .border{
     border-bottom: #FFF 2px solid;
 }
 
 .menu-1 .tag30{
-    margin: 670px 0 0 0;
+    margin: 400px 0 0 0;
     text-align: center;
     
 }
 
 .menu-2{
-    font-size: 32px;
-    margin: -5px 0 10px 0;
+    font-size: 20px;
+    margin: -5px 0 5px 0;
     
 }
 .menu-2 li{
     list-style: none;
-    line-height: 30px;
-line-height: 48px;
+    line-height: 0px;
+line-height: 33px;
     margin:0 0 0 10px;
 }
 
@@ -514,13 +508,13 @@ overflow: hidden;
 .ggmap embed {
 position: absolute;
 top: 0;
-left: 0;
-width: 100%;
-height: 100%;
+left: 19px;
+width: 90%;
+height: 90%;
 }
 
 .step3 img{
-    margin-left: 60px;
+    margin-left: 15px;
     margin-top: 60px;
     margin-bottom: 10px;
 }
@@ -531,20 +525,20 @@ height: 100%;
 }
 .tag42{
 position: relative;
-    bottom: 230px;
-    left: 530px
+    bottom: 130px;
+    left: 210px
 }
+
+
+
 
 
 /*loading*/
 #container{display:none;}
 #loading{
     text-align: center;
-    margin-top: 200px;
+    margin-top: 500px;
 }
-
-
-
 
 
 
